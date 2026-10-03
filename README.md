@@ -24,6 +24,7 @@ is the project's defining constraint, not decoration.
 | [`outline.md`](outline.md) | **Canonical source.** Abstract plus the 52 numbered beats with citations, in eight acts. |
 | [`bibliography.md`](bibliography.md) | The 39 origin sources, mapped to beat numbers, each with its "why it's the origin" justification. Includes the author's notes on analogy-versus-evidence. |
 | [`further-reading.md`](further-reading.md) | 63 modern works that build on the origins, each tagged with its related beats. |
+| [`sources-digital.md`](sources-digital.md) | Where to actually read each origin source free — Gutenberg, Internet Classics, archive.org, author pages — in four access tiers, with every link checked. |
 | [`formats/talk-60min.md`](formats/talk-60min.md) | Timing plan for the format of record. |
 | [`formats/lightning-5min.md`](formats/lightning-5min.md) | Two strategies for the 5-minute reduction, with a recommendation. |
 | [`formats/book-outline.md`](formats/book-outline.md) | Chapter map for the expansion, plus the one structural change the book needs. |
@@ -42,6 +43,6 @@ repo. If a beat is cut, retire its number rather than reusing it.
   case material behind them; see `NOTES.md` §4.
 - **5-minute lightning talk** — two cuts proposed, neither chosen.
 
-Everything in `formats/` and `NOTES.md` is derived commentary and proposal. Only
-`outline.md`, `bibliography.md` and `further-reading.md` are the author's material,
-transcribed from the printed draft of 2026-10-03.
+Everything in `formats/`, `NOTES.md` and `sources-digital.md` is derived commentary,
+proposal or research. Only `outline.md`, `bibliography.md` and `further-reading.md` are
+the author's material, transcribed from the printed draft of 2026-10-03.

@@ -12,30 +12,39 @@ The source document already carries the author's own warning:
 > **Verification:** These citations come from memory, not a live search. Check editions,
 > volume/issue numbers and translations against the sources before publishing.
 
-The pass below is **also from knowledge, not a live source check.** It is a triage list
-for the real verification pass, not a substitute for it. These are the entries most
-likely to need attention:
+A partial live verification has since been run against the actual texts and library
+catalog records. Results are below; digital locations for every origin source are in
+[`sources-digital.md`](sources-digital.md). **Status** marks what was checked against a
+source rather than recalled.
 
-| Entry | Issue | Suggested correction |
-|---|---|---|
-| Shannon (1948) | Cited as *BSTJ* 27(3). The paper ran in **two parts**: 27(3), July 1948, pp. 379–423 and 27(4), October 1948, pp. 623–656. | Cite both parts, or cite the 1949 Shannon & Weaver book edition. |
-| Wiener (1948) | Cited as "MIT Press/Wiley, 1948." The 1948 first edition was **Hermann & Cie (Paris) and John Wiley (New York)**; MIT Press published the 2nd edition in **1961**. | Pick one: "Wiley, 1948" for first publication, or "MIT Press, 1961" for the edition actually read. |
-| Weber, *Economy and Society* | The Roth & Wittich translation was first published by **Bedminster Press, 1968**; the University of California Press printing is 1978. | Note both, or cite the UC Press printing explicitly as a reprint. |
-| Conway (1968) | No volume/issue. | *Datamation* 14(5), April 1968, pp. 28–31. |
-| Popper (1945) | "Routledge" — the original imprint was **Routledge & Kegan Paul**. | Minor; fix for consistency. |
-| Salvi et al. (2024) | Listed as arXiv 2024, "later published in *Nature Human Behaviour*." | Confirm the journal version's year, volume and page range; cite the journal version as primary. |
-| Cialdini (2021) | Unity is correctly noted as the seventh principle, but it was introduced in *Pre-Suasion* (2016) before being folded into the expanded *Influence*. | Optional refinement if the seventh principle gets any real weight. |
+| Entry | Issue | Resolution | Status |
+|---|---|---|---|
+| Shannon (1948) | Cited as *BSTJ* 27(3). The paper ran in **two parts**: 27(3), July 1948, pp. 379–423 and 27(4), October 1948, pp. 623–656. | Cite both parts, or cite the 1949 Shannon & Weaver book edition. | **Confirmed** |
+| Wiener (1948) | Cited as "MIT Press/Wiley, 1948." The 1948 first edition was **John Wiley (New York)**; MIT Press published the 2nd edition in **1961**. | Pick one: "Wiley, 1948" for first publication, or "MIT Press, 1961" for the edition actually read. | **Confirmed** — archive.org catalogues the 1948 edition as "New York, J. Wiley" |
+| Weber, *Economy and Society* | The Roth & Wittich translation was first published by **Bedminster Press, 1968**; the University of California Press printing is 1978. | Note both, or cite the UC Press printing explicitly as a reprint. | Partly — the 1922 German original is confirmed as Tübingen: Mohr |
+| Conway (1968) | No volume/issue. | **Leave it out.** Conway's own site gives only "*Datamation*, April 1968"; secondary sources split between 14(4) and 14(5). Cite month, year and the author's page. | **Unresolved** — my earlier suggestion of 14(5) is not supportable |
+| Popper (1945) | "Routledge" — the original imprint was **Routledge & Kegan Paul**. | Minor; fix for consistency. | **Confirmed** |
+| Salvi et al. (2024) | Listed as arXiv 2024, "later published in *Nature Human Behaviour*." | Confirm the journal version's year, volume and page range; cite the journal version as primary. | Not yet checked |
+| Cialdini (2021) | Unity is correctly noted as the seventh principle, but it was introduced in *Pre-Suasion* (2016) before being folded into the expanded *Influence*. | Optional refinement if the seventh principle gets any real weight. | Not yet checked |
+| Aristotle *Rhetoric* II.1 | Does II.1 actually name the three components of ethos? | Yes, verbatim: "good sense, good moral character, and goodwill." Beat 49's "three stats" is sound. | **Confirmed** |
+| Kant, Appendix II | Does the transcendental formula sit in Appendix II? | Yes. Full title: "Concerning the Harmony of Politics with Morals According to the Transcendental Idea of Public Right." | **Confirmed** |
+| Cialdini (1984) | First edition cited as William Morrow, 1984. | The 1984 first edition is **not digitised** — archive.org has 1993 and later, and the principles were reworded between editions. Don't quote a later printing as 1984. | **New issue found** |
 
-Everything else in the two origin tables matches what I know of the record, including
-the details most likely to be wrong from memory — Asch in Guetzkow's *Groups, Leadership
-and Men* (Carnegie Press, 1951), Goffman's 1956 Edinburgh / 1959 Anchor split, Arrow in
-*Philosophy & Public Affairs* 1(4), Freudenberger in *Journal of Social Issues* 30(1),
-and Kant's transcendental formula of public right sitting in Appendix II. That is a good
-hit rate for citations recalled rather than looked up.
+Several details that were most likely to be wrong from memory checked out against
+sources: Asch in Guetzkow's *Groups, Leadership and Men* (Carnegie Press, 1951, pp. 177–190),
+Trist & Bamforth at *Human Relations* 4(1), 3–38, Granovetter at *AJS* 78(6), May 1973,
+Kram at Scott, Foresman 1985, Scott at Yale UP 1998, Mitnick & Simon at Wiley 2002, and
+Barnard's 1938 Harvard UP first edition. That is a high hit rate for citations recalled
+rather than looked up.
 
-**Not yet done:** a live, source-by-source verification. Say the word and I'll run one
-across all 39 origin entries and the 63 further-reading entries and record the results
-here with page numbers and DOIs.
+One caveat on Goffman: the 1956 Edinburgh / 1959 Anchor split is correct as a
+bibliographic fact, but the 1956 Edinburgh monograph does not appear to be digitised
+anywhere, so only the 1959 text can actually be consulted.
+
+**Still outstanding:** the 16 origin sources in Tier 4 of
+[`sources-digital.md`](sources-digital.md) are paywalled and have not been checked against
+print, and none of the 63 further-reading entries has been verified at all. The journal
+details for those were recalled, not looked up.
 
 ## 2. Structural observations
 

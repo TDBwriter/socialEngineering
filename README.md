@@ -4,6 +4,13 @@ You don't need to check his identification. These are not the droids you're look
 
 ---
 
+### 📚 [**Read the resource list →**](RESOURCES.md)
+
+Every citation for the talk with a link where one exists, grouped by how to get it.
+Built for reading on a phone. All links checked 2026-10-03.
+
+---
+
 ## Charisma Builds
 
 **Social Engineering for Influence and Self-Defense at Enterprise Scale**
@@ -24,6 +31,7 @@ is the project's defining constraint, not decoration.
 | [`outline.md`](outline.md) | **Canonical source.** Abstract plus the 52 numbered beats with citations, in eight acts. |
 | [`bibliography.md`](bibliography.md) | The 39 origin sources, mapped to beat numbers, each with its "why it's the origin" justification. Includes the author's notes on analogy-versus-evidence. |
 | [`further-reading.md`](further-reading.md) | 63 modern works that build on the origins, each tagged with its related beats. |
+| [`RESOURCES.md`](RESOURCES.md) | **Phone-readable** citation + link list, grouped by access. Start here for reviewing sources. |
 | [`sources-digital.md`](sources-digital.md) | Where to actually read each origin source free — Gutenberg, Internet Classics, archive.org, author pages — in four access tiers, with every link checked. |
 | [`formats/talk-60min.md`](formats/talk-60min.md) | Timing plan for the format of record. |
 | [`formats/lightning-5min.md`](formats/lightning-5min.md) | Two strategies for the 5-minute reduction, with a recommendation. |

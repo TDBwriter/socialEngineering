@@ -27,7 +27,9 @@ sees that it works, and adopts it. It's one strategy for every kind of manager. 
 learns the pattern. An ego-driven one rises on your success until they reach their limit. Your
 written record protects you either way.
 
-It covers peer leadership modeled on the SRE and the blameless postmortem, how to ask
+It isn't a one-on-one battle with a superior. The same techniques work with the whole team,
+with product owners and with clients, and the trust they build is where a team's real authority
+comes from. It covers peer leadership modeled on the SRE and the blameless postmortem, how to ask
 questions without judgment, and how the conditions a struggling manager creates mirror the
 ones a scammer manufactures. Self-defense here means acting first, because no one else is
 going to do it for you. Then it turns to AI: **prompting is managing.** AI has just promoted
@@ -48,6 +50,16 @@ If you don't, the questions come out apologetic, and apologetic questions sound 
 - **The political origin:** John Locke grounded government in consent (1689) **(new)**, and
   before him Étienne de La Boétie's *Discourse on Voluntary Servitude* (c. 1550) **(new)**
   argued that a tyrant holds power only because people keep obeying.
+
+**Where the belief leads.** If authority is granted by the governed, it goes to whoever the team
+trusts. Practice these techniques with empathy and respect for every coworker, not just the
+manager, and the team grants that trust to you. The manager keeps the title, and you hold the
+team's real authority. Say "earned" or "granted," never "usurped": nothing was taken, because
+the team gave it. And the manager, good or bad, sees the team's success as the result of their
+own leadership. People reliably take credit for success; that's the best-supported half of the
+self-serving bias. That's what keeps the arrangement stable. You're never a threat, because
+every win reads as theirs.
+- Miller & Ross (1975) **(new)**
 
 ---
 
@@ -112,7 +124,9 @@ produced the failure, not a person to blame. This talk asks you to point that ha
 **7. Org charts are the documented API; the real call graph is informal and undocumented**
 Barnard is the source of both ideas here: the informal organization, and the core belief that
 authority is granted by whoever accepts it. The org chart shows who may give orders. The
-informal graph shows whose orders actually get accepted.
+informal graph shows whose orders actually get accepted. Done right, you become the hub of the
+real graph: the person the team, the product owners and the clients all route through, while
+the org chart stays exactly as it was.
 - Barnard (1938)
 
 **8. Conway's Law runs in both directions: your architecture is a confession about your relationships**
@@ -196,14 +210,18 @@ data: dates, decisions, priorities. Let the sting go in the room, and keep the f
 
 ## Act IV: Peer Leadership Without Authority
 
-*Status: defined. The model is the SRE and the blameless postmortem. Peer leadership happens at
-the water cooler.*
+*Status: defined. The model is the SRE and the blameless postmortem, and peer leadership happens
+at the water cooler. It isn't aimed at the manager alone. It means empathy and respect for every
+coworker, and the same techniques work with product owners, clients and their teams, especially
+in technical work.*
 
 **20. Most of your real leverage is lateral, and none of it comes with a title**
 The model is an SRE who finds gaps in a system and brings metrics, with no authority beyond
 facts and reasoning, and still drives results. That works because of the core belief: people
 accept facts, so facts carry authority. Subordinates who influence their bosses mainly by
-reasoning get the highest performance ratings.
+reasoning get the highest performance ratings. The scope is everyone: teammates, product owners,
+clients and their teams. The questions that clarify a manager's request clarify a product
+owner's just as well.
 - Barnard (1938); Kipnis, Schmidt & Wilkinson (1980) **(new)**; Kipnis & Schmidt (1988) **(new)**
 
 **21. Credit is a renewable resource, and spending it on others compounds your own**
@@ -242,8 +260,10 @@ Peer leadership turns it around. When people complain about the boss, steer the 
 character to situation and share the questions, so the team helps its leader be their best self.
 One person asking "what does done look like?" is a quirk; a whole team asking it makes clarity
 the norm. In Milgram's variation where two fellow participants refused to continue, full
-obedience dropped to about one in ten. Peers change what authority can do.
-- Asch (1951); Milgram (1974)
+obedience dropped to about one in ten. Peers change what authority can do. In effect you're
+coaching the team in improving the manager, and the manager can't read that as anything but the
+team thriving under their leadership. Good manager or bad, the wins look like theirs.
+- Asch (1951); Milgram (1974); Miller & Ross (1975) **(new)**
 
 **26. Mentorship is distributed caching: you are warming someone else's context**
 Point it upward. This is, in effect, quietly mentoring your manager: warming their context on
@@ -301,18 +321,26 @@ often being measured on things nobody explained to them either.
 - Kerr (1975)
 
 **32. Skip-levels, sponsors, and the difference between someone who likes you and someone who will spend capital on you**
-These are the exit ramp. Elicitation, like a real PIP, has an end date. It should be longer than
-HR's 30/60/90 days, because subtlety takes time, but set it before you start.
+They aren't exit ramps anymore. They're part of the wider network you've built, and a sponsor is
+someone who'll spend capital on you because you've helped them succeed too. Elicitation, like a
+real PIP, has an end date. It should be longer than HR's 30/60/90 days, because subtlety takes
+time, but set it before you start.
 *Signs it's working:* they define done before you ask; your recap wording shows up in their
 status reports; they start asking their own reports your questions.
 *Signs it isn't:* questions meet hostility; recaps get disputed; blame keeps landing on you
-despite the record.
+despite the record. If that happens, lean on the wider network, the skip-level and the sponsor,
+rather than the door.
 When an organization fails its members, they can leave (exit) or try to fix it from inside
 (voice); most default to neglect, now called quiet quitting. Because of the imbalance of power,
 an underling's real options come down to four: go to HR (formal voice), quit (exit), quiet quit
-(neglect), or help the manager (informal voice). This talk teaches the fourth. Elicitation is
-voice without a formal channel, and the end date is where voice turns into exit. The next step
-is a skip-level, a sponsor, or the door.
+(neglect), or help the manager (informal voice). This talk teaches the fourth, and done properly
+it makes the other three moot. The work was never a one-on-one battle with a superior, so by now
+you've built strong working relationships with the team, the product owners and the clients.
+**Quitting stops looking like an option at all, because this is your team.** The end date no
+longer marks where voice turns into exit. It marks which outcome you're in: the manager grows,
+moves to a better fit, or rises until the balloon pops. In all three, you stay.
+*Have the Q&A answer ready:* "What if I want to leave anyway, or a reorg decides for me?" Then
+the relationships, the reputation and the record go with you. None of the work is wasted.
 - Kram (1985); Hirschman, *Exit, Voice, and Loyalty* (1970) **(new)**
 
 **33. Promotion is a lagging indicator of a story someone else has been telling about you**
@@ -540,7 +568,9 @@ sabotage, or seeing a disaster coming and keeping quiet so it lands on them. Fil
 with real success and offer the feedback that would let them grow into it. If their ego refuses
 the feedback, the pop is theirs. Flattering an ego to steer it is a different thing. That's
 ingratiation, the Deception skill this build never takes, and it's relationship debt that never
-gets paid down.
+gets paid down. The water-cooler coaching passes too: it doesn't rely on the manager not knowing.
+Told about it, most managers would welcome it, and either way they read the results as their
+own leadership.
 This outline passed the same test: its author steered the AI that helped draft it using these
 techniques, then asked it to explain how. The technique still worked once revealed.
 - Kant (1795), Appendix II; Plato, *Meno* **(new)**
@@ -581,6 +611,7 @@ itself during discussion. **Recalled** means it still needs that check.
 - Locke, John. *Second Treatise of Government*. 1689. Recalled
 - La Boétie, Étienne de. *Discourse on Voluntary Servitude*. Written c. 1550. Recalled
 - Grant, Adam. *Give and Take*. Viking, 2013. Recalled (already in further reading)
+- Miller, Dale T. & Michael Ross. "Self-Serving Biases in the Attribution of Causality: Fact or Fiction?" *Psychological Bulletin* 82, 1975, 213–225. **Checked**. Cite it for taking credit for *success*, which the review supported; it found weak support for deflecting blame for failure.
 
 ## Open decisions
 

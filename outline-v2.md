@@ -28,7 +28,10 @@ sees that it works, and adopts it.
 It covers peer leadership modeled on the SRE and the blameless postmortem, how to ask
 questions without judgment, and how the conditions a struggling manager creates mirror the
 ones a scammer manufactures. Self-defense here means acting first, because no one else is
-going to do it for you. The talk ends with a firm ethical limit: if a technique works only
+going to do it for you. Then it turns to AI: **prompting is managing.** AI has just promoted
+every engineer to manager of its output, and nobody trained them either. The same questions
+that clarify a vague manager's request are what make an AI useful, and an AI shows you in
+seconds what your own vagueness costs. The talk ends with a firm ethical limit: if a technique works only
 when the other person doesn't know you're using it, don't use it. Wherever possible, each
 claim is traced to the person who first stated the idea.
 
@@ -257,7 +260,8 @@ The PIP is on you, not on them: you get the clarity a formal PIP would give you 
 needs one. Managers avoid formal PIPs partly because writing expectations down exposes that
 they were never set. Done informally and with empathy, everyone improves. Social engineers use
 "elicitation" for drawing information out through what looks like ordinary conversation, and
-software engineers use it for gathering requirements. Here, it's both.
+software engineers use it for gathering requirements. Here, it's both. The same questions
+work on an AI, which is where most engineers will practice them first; the AI act covers this.
 *Accuracy note for the stage:* in the US, at-will employment means a PIP usually isn't legally
 required to fire someone. Companies use it as documentation in case the firing is challenged,
 and rules differ elsewhere.
@@ -381,41 +385,88 @@ too: this is invisible, unpaid emotional labor, which is one more reason for the
 
 ---
 
-## Act VII: The AI Inflection
+## Act VII: The AI Inflection — Prompting Is Managing
 
-*Status: undecided. AI wasn't part of your own description of the topic. Options: shrink it to
-a short "why now," or cut it. The security points here depend on whether the bad-faith case
-stays.*
+*Status: decided. Prompting is managing. The AI is a report working from unclear requirements,
+and every elicitation technique works on it. More useful still, it puts the engineer in the
+manager's chair. Plenty of engineers who complain about vague managers write vague prompts, and
+the AI shows them the cost in seconds. That's the Dunning-Kruger framework aimed at yourself,
+with instant feedback. The threat material shrinks to a single note and goes with the
+bad-faith decision.*
+
+**The live demo: this outline is its own case study.** It began as photos of a printed draft,
+with one line of context and no instructions. The AI filled the gap with its own reading, a
+security talk with AI as the "why now," and built things the author later dropped. The author
+then steered it to this draft using the talk's own techniques:
+- **Specific asks finished in one pass:** "push a list of citations and links to an MD on
+  github in the resources branch so I can review from my phone."
+- **Questions that let it find the problem itself:** "how's that then?" had the AI critique its
+  own proposal. "how does it(not) tie" explicitly allowed the unwelcome answer, which is the
+  opposite of a leading question.
+- **Redirecting without blame:** "nvm," "No," "not quite." Never "wrong."
+- **Correcting by adding context instead of overruling:** "This topic is about peer
+  leadership…" turned the AI's misreading into a gap to fill, not a failure to argue about.
+- **Reinforcing the specific behavior:** "pip has an end date is a great point," and the end
+  date stayed central from then on.
+- **Controlling the pace:** the AI ended almost every turn with a question meant to set the
+  next step, and the author answered on their own schedule, in batches.
+- **Authority granted by the governed:** none of the AI's recommendations carried any weight
+  until the author accepted them.
+- **The disclosure:** at the end, the author asked the AI to analyze how it had been steered.
+  The technique still worked once it was revealed.
+
+The cost shows up too. Because the opening was vague, the AI built two five-minute cuts, a book
+map and a timing plan that were later dropped. Letting the other side draft it wrong first is
+cheap with an AI and expensive with a person.
 
 **42. AI collapsed the cost of producing competent-looking output to approximately zero**
-If kept: a vague request now gets a fast, polished, wrong answer. That makes clarity worth more,
-not less.
+A vague prompt gets a fast, polished, wrong answer. That's what a vague manager gets from a
+capable report, only in seconds instead of weeks. Because drafts are now free, it's tempting to
+manage by reaction ("not that," "not quite") until something looks right. That habit is cheap
+with an AI and expensive with a person, who pays for every draft. The engineer who learns to say
+what done looks like before the first draft gets better output from both.
 - Simon (1971); Noy & Zhang (2023)
 
 **43. When everyone can generate the artifact, judgment and trust become the scarce goods**
-This connects to reputation: what's scarce is the person whose name on the work means something.
+The scarce skill is knowing what done looks like before the draft arrives, and that is the
+manager's job. Reputation follows the person who can define the work and vouch for the result.
 - Simon (1971); Arrow (1972)
 
 **44. Deepfakes and synthetic pretexting broke the heuristics your instincts were trained on**
-Depends on the threat model. It shrinks or goes along with the bad-faith case.
+The first heuristic to break is "polished means competent." It fails on a deepfake, on a fluent
+AI draft and on a confident manager alike. Judge by specifics: what was asked, what was
+delivered, what can be checked. The deepfake threat material stays only if the bad-faith case
+does.
 - Turing (1950)
 
 **45. The AI-assisted engineer's new job title is "person who vouches for this"**
-Survives in any version. It's the reputation this talk is about building: team player, effective
-communicator, someone whose word holds.
-- Bainbridge (1983)
+AI just promoted every engineer to manager of its output, and nobody trained them either.
+That's the Peter Principle again: moved from doing the work to overseeing it, with no support
+for the new job. Bainbridge's irony of automation is that the human is left with the harder job
+of oversight. Engineers now sit in the same chair as the manager they complain about, which
+builds the empathy the rest of the talk asks for.
+- Bainbridge (1983); Peter & Hull (1969)
 
 **46. AI is a persuasion amplifier: it drafts, tailors, and A/B tests the message against you**
-Depends on the threat model.
+The amplifier works for you too. Use the AI as a sparring partner: have it play your vague,
+rushed manager, and practice the questions until they come naturally. "What does done look
+like?" "If I can only do two of the three, which two?" Rehearsal is how the skill gets built. If
+the bad-faith case stays, the original warning stays with it: the same tool can tailor a message
+to pressure you.
 - Weizenbaum (1976); Cialdini (1984)
 
 **47. Verification rituals must now be out-of-band by default**
-Survives only as "I'll get back to you," scaled up.
+With an AI, verification is the recap. Ask it to restate the task before it starts. That's "let
+me make sure I understand what you need," run in reverse. Then check the result against what
+you asked, outside the chat. "I'll get back to you" still applies: don't accept the first
+answer just because you're in a hurry.
 - Mitnick & Simon (2002)
 
 **48. The skills AI cannot commoditize are the ones this talk is about**
-Deming found that jobs requiring social skills have grown. Elicitation and peer leadership are
-exactly those skills. This is the strongest candidate for a short "why now."
+Deming found that jobs requiring social skills have grown. The twist is that the same skills
+make AI useful: being specific, asking clarifying questions, reinforcing what works,
+redirecting without blame. Learning to manage people trains you to prompt, and prompting trains
+you to manage, with instant, low-stakes feedback.
 - Deming (2017)
 
 ---
@@ -432,7 +483,9 @@ takes Deception.
 
 **50. Week one: the smallest experiments that produce visible returns**
 Start Monday with one question: "What does done look like?" Send one recap. Then, the next time
-someone at the water cooler complains about the boss, share the question. Small wins compound.
+someone at the water cooler complains about the boss, share the question. Before Monday,
+rehearse on an AI: have it play your vague manager and run the questions until they come out
+naturally. Small wins compound.
 - Weick (1984)
 
 **51. The ethical floor: if it only works when they don't know you're doing it, don't do it**
@@ -442,6 +495,8 @@ questions designed to make your idea seem like theirs don't. Plato's *Meno* show
 teaches entirely through questions, and he's been criticized ever since for leading. The
 ego-driven manager is where the floor gets tested, because manipulation is easiest there, and
 the floor still says no. Managing someone's ego is relationship debt that never gets paid down.
+This outline passed the same test: its author steered the AI that helped draft it using these
+techniques, then asked it to explain how. The technique still worked once revealed.
 - Kant (1795), Appendix II; Plato, *Meno* **(new)**
 
 **52. Leave with this: competence gets you in the room, charisma determines whether the room does anything about it**
@@ -480,7 +535,8 @@ itself during discussion. **Recalled** means it still needs that check.
 
 ## Open decisions
 
-1. **Act VII:** shrink it to a short "why now," or cut it.
-2. **The bad-faith manager case** (phishing and bad-faith persuasion share a threat model): keep it or cut it.
-3. **The close:** the *Fallout* boss fight, or "more options than quitting and quiet quitting."
-4. **The word "ambush":** keep it as is, or use "ambush the ambiguity" so it stays aimed at the situation rather than the person.
+~~**Act VII:** shrink it to a short "why now," or cut it.~~ **Decided:** prompting is managing.
+
+1. **The bad-faith manager case** (phishing and bad-faith persuasion share a threat model): keep it or cut it. The deepfake and pressure notes in the AI act go with it.
+2. **The close:** the *Fallout* boss fight, or "more options than quitting and quiet quitting."
+3. **The word "ambush":** keep it as is, or use "ambush the ambiguity" so it stays aimed at the situation rather than the person.

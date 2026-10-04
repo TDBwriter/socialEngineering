@@ -536,7 +536,7 @@ itself during discussion. **Recalled** means it still needs that check.
 ## Open decisions
 
 ~~**Act VII:** shrink it to a short "why now," or cut it.~~ **Decided:** prompting is managing.
+~~**The word "ambush":** keep it as is, or qualify it.~~ **Decided:** "ambush the ambiguity," so it stays aimed at the situation rather than the person.
 
 1. **The bad-faith manager case** (phishing and bad-faith persuasion share a threat model): keep it or cut it. The deepfake and pressure notes in the AI act go with it.
 2. **The close:** the *Fallout* boss fight, or "more options than quitting and quiet quitting."
-3. **The word "ambush":** keep it as is, or use "ambush the ambiguity" so it stays aimed at the situation rather than the person.

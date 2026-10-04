@@ -23,7 +23,9 @@ people past their skills and abandon them there, and we call it Dunning-Kruger a
 The talk offers another option, **elicitation**: running the principles of a performance
 improvement plan on your own work, informally and with empathy, through questions that turn
 vague, unmeetable expectations into clear ones. Done well, your manager notices the pattern,
-sees that it works, and adopts it.
+sees that it works, and adopts it. It's one strategy for every kind of manager. A good one
+learns the pattern. An ego-driven one rises on your success until they reach their limit. Your
+written record protects you either way.
 
 It covers peer leadership modeled on the SRE and the blameless postmortem, how to ask
 questions without judgment, and how the conditions a struggling manager creates mirror the
@@ -306,17 +308,30 @@ status reports; they start asking their own reports your questions.
 *Signs it isn't:* questions meet hostility; recaps get disputed; blame keeps landing on you
 despite the record.
 When an organization fails its members, they can leave (exit) or try to fix it from inside
-(voice); most default to neglect, now called quiet quitting. Elicitation is voice without a
-formal channel, and the end date is where voice turns into exit. The next step is a skip-level,
-a sponsor, or the door.
+(voice); most default to neglect, now called quiet quitting. Because of the imbalance of power,
+an underling's real options come down to four: go to HR (formal voice), quit (exit), quiet quit
+(neglect), or help the manager (informal voice). This talk teaches the fourth. Elicitation is
+voice without a formal channel, and the end date is where voice turns into exit. The next step
+is a skip-level, a sponsor, or the door.
 - Kram (1985); Hirschman, *Exit, Voice, and Loyalty* (1970) **(new)**
 
 **33. Promotion is a lagging indicator of a story someone else has been telling about you**
-This applies to your manager too. The two good outcomes: they adopt the pattern, or the credit
-you've given them gets them noticed and moved into a role that fits. Peter & Hull named the bad
-versions: "percussive sublimation" (being kicked upstairs) and the "lateral arabesque" (being
-moved aside with a longer title). In both, the problem moves without being solved. A move to a
-better fit is a fix; a kick upstairs exports your problem to someone else's team.
+This applies to your manager too, and the same effort produces one of three outcomes:
+- **They grow.** A good manager adopts the pattern, and the whole team gets better.
+- **They move to a better fit.** The credit you've given them gets them noticed and moved into a
+  role that suits them.
+- **The balloon.** An ego-driven manager won't take the feedback, but they'll take the success.
+  Give an inflated ego room to expand and fill it with real success, and it grows until it
+  pops. Your output carries them upward, off your shoulders, until they're in over their heads.
+
+The hacker part isn't an attack on the manager. It runs the org's own promotion bug forward: the
+habit of promoting people on visible output without checking whether they can manage. That bug
+put them where they are. Peter & Hull named the pseudo-promotions it produces: "percussive
+sublimation" (being kicked upstairs) and the "lateral arabesque" (being moved aside with a longer
+title).
+*Have the Q&A answer ready:* the pop has a blast radius, because a balloon that rises off your
+shoulders comes down on a bigger team. The answer is that you gave them every chance to grow,
+the record shows it, and the org owns its promotion decisions.
 - Goffman (1959); Peter & Hull (1969) **(new)**
 
 ---
@@ -343,12 +358,24 @@ manufactures, with no malice at all; their own panic flows downhill.
 "I need this today" is urgency → "When do you need it, and what's driving that date?"
 "Because leadership wants it" is authority → "What is your leadership actually asking about this?"
 "Just get it done, don't pull anyone else in" is isolation → "Who else is involved?" (A single ally breaks the pressure.)
+At the extreme, the authority is faked outright. That's the deepfake case in the AI act, and the
+same questions stop it.
 - Cialdini (1984); Milgram (1974); Asch (1951)
 
 **36. Phishing and bad-faith persuasion share a threat model**
-Reserved for the minority: managers who aren't struggling but use vagueness and blame on
-purpose, often the ego-driven ones. With them, the threat model applies, because they are the
-threat. You defend yourself; you don't manipulate back. *Open decision: keep this case or cut it.*
+They do, and the first step in any threat model is working out what the attacker wants. An
+ego-driven manager isn't driven by the work, the results or excellence. They're driven by their
+standing. Their bad faith is instrumental: it's only malicious when that serves their standing,
+and it lands on underlings who threaten it. So don't fight the malice; take away its purpose.
+Become the source of their standing, and you stop being a target and start being an asset.
+
+That's why it's one strategy for every manager. Do excellent work, use elicitation, and give
+them the credit. You never need to work out which kind of manager you have. That's the same
+principle as treating Dunning-Kruger as a framework, not a diagnosis. On stage, describe the
+behavior and don't diagnose it: "ego-driven" or "status-driven," never "narcissistic."
+
+**The record is your parachute.** Ego-driven managers who fall look downward for someone to
+blame. The written record shows you did the work and raised the risks early.
 - Cialdini (1984); Mitnick & Simon (2002)
 
 **37. Weaponized vagueness: how ambiguity is used to move accountability onto you**
@@ -391,8 +418,8 @@ too: this is invisible, unpaid emotional labor, which is one more reason for the
 and every elicitation technique works on it. More useful still, it puts the engineer in the
 manager's chair. Plenty of engineers who complain about vague managers write vague prompts, and
 the AI shows them the cost in seconds. That's the Dunning-Kruger framework aimed at yourself,
-with instant feedback. The threat material shrinks to a single note and goes with the
-bad-faith decision.*
+with instant feedback. The deepfake material now ties in through the questions habit: a
+workforce that's used to questioning the real boss is hardened against a fake one.*
 
 **The live demo: this outline is its own case study.** It began as photos of a printed draft,
 with one line of context and no instructions. The AI filled the gap with its own reading, a
@@ -435,9 +462,19 @@ manager's job. Reputation follows the person who can define the work and vouch f
 **44. Deepfakes and synthetic pretexting broke the heuristics your instincts were trained on**
 The first heuristic to break is "polished means competent." It fails on a deepfake, on a fluent
 AI draft and on a confident manager alike. Judge by specifics: what was asked, what was
-delivered, what can be checked. The deepfake threat material stays only if the bad-faith case
-does.
-- Turing (1950)
+delivered, what can be checked.
+
+**The case:** a finance worker at the engineering firm Arup was suspicious of a message asking for
+a "secret transaction." That's isolation. The suspicion faded on a video call where the CFO and
+colleagues were all deepfakes, which is impersonated authority. Then the urgency did the rest,
+and about $25 million moved. It's the urgency, authority and isolation recipe with the authority
+faked. What made it work is the habit this talk takes apart: when the boss says jump, you jump. A
+workforce trained never to question the boss is the attack surface for a deepfake. A workforce
+that habitually asks "who else is involved?", "what's driving the date?" and "I'll get back to
+you" is hardened. **Elicitation is also a security control.** Deepfakes stop being annual-training
+material and become the payoff of the culture this talk builds.
+- Turing (1950); Chen & Magramo, CNN (2024); Nightingale & Farid, *PNAS* (2022). Both of the last
+  two are already in further reading.
 
 **45. The AI-assisted engineer's new job title is "person who vouches for this"**
 AI just promoted every engineer to manager of its output, and nobody trained them either.
@@ -450,17 +487,20 @@ builds the empathy the rest of the talk asks for.
 **46. AI is a persuasion amplifier: it drafts, tailors, and A/B tests the message against you**
 The amplifier works for you too. Use the AI as a sparring partner: have it play your vague,
 rushed manager, and practice the questions until they come naturally. "What does done look
-like?" "If I can only do two of the three, which two?" Rehearsal is how the skill gets built. If
-the bad-faith case stays, the original warning stays with it: the same tool can tailor a message
-to pressure you.
+like?" "If I can only do two of the three, which two?" Rehearsal is how the skill gets built. The
+original warning stands too: the same tool can tailor a message to pressure you, and the same
+questions are the defense.
 - Weizenbaum (1976); Cialdini (1984)
 
 **47. Verification rituals must now be out-of-band by default**
 With an AI, verification is the recap. Ask it to restate the task before it starts. That's "let
 me make sure I understand what you need," run in reverse. Then check the result against what
 you asked, outside the chat. "I'll get back to you" still applies: don't accept the first
-answer just because you're in a hurry.
-- Mitnick & Simon (2002)
+answer just because you're in a hurry. The same rule would have stopped the deepfake payment: a
+callback on a number you already know is Mitnick's prescription, and it's "I'll get back to you"
+with a phone attached.
+- Mitnick & Simon (2002); NSA, FBI & CISA, *Contextualizing Deepfake Threats to Organizations*
+  (2023), already in further reading
 
 **48. The skills AI cannot commoditize are the ones this talk is about**
 Deming found that jobs requiring social skills have grown. The twist is that the same skills
@@ -493,18 +533,27 @@ Elicitation passes the test because its success condition is being discovered: t
 notices the pattern, sees that it works, and adopts it. Clarifying questions pass. Leading
 questions designed to make your idea seem like theirs don't. Plato's *Meno* shows both: Socrates
 teaches entirely through questions, and he's been criticized ever since for leading. The
-ego-driven manager is where the floor gets tested, because manipulation is easiest there, and
-the floor still says no. Managing someone's ego is relationship debt that never gets paid down.
+ego-driven manager is where the floor gets tested, because manipulation is easiest there. The
+balloon passes: excellent work, generous credit and honest questions all survive being said out
+loud. "Nefarious hacker" is the flavor, not the substance. What fails is aiming for the pop:
+sabotage, or seeing a disaster coming and keeping quiet so it lands on them. Fill the balloon
+with real success and offer the feedback that would let them grow into it. If their ego refuses
+the feedback, the pop is theirs. Flattering an ego to steer it is a different thing. That's
+ingratiation, the Deception skill this build never takes, and it's relationship debt that never
+gets paid down.
 This outline passed the same test: its author steered the AI that helped draft it using these
 techniques, then asked it to explain how. The technique still worked once revealed.
 - Kant (1795), Appendix II; Plato, *Meno* **(new)**
 
 **52. Leave with this: competence gets you in the room, charisma determines whether the room does anything about it**
-Candidate closes:
-(a) back to the theme: "In *Fallout*, you can talk the final boss out of the fight. Your boss
-fight works the same way."
-(b) "When the workplace contract breaks, you have more options than quitting and quiet quitting."
-*Open decision.*
+**The close:**
+> We are in this for longevity. We are in this for the work. We are in this for the team.
+
+For rooms that will take it, the author's tag: *"A manager has their own motivations, and if they
+can't see the writing on the wall, fuck 'em."* Where they won't, end on the triad.
+The *Fallout* boss-fight line can set it up: "In *Fallout*, you can talk the final boss out of
+the fight. Your boss fight works the same way." So can "When the workplace contract breaks, you
+have more options than quitting and quiet quitting."
 - Aristotle, *Rhetoric*, Book I.2; Casciaro & Lobo (2005)
 
 ---
@@ -538,5 +587,14 @@ itself during discussion. **Recalled** means it still needs that check.
 ~~**Act VII:** shrink it to a short "why now," or cut it.~~ **Decided:** prompting is managing.
 ~~**The word "ambush":** keep it as is, or qualify it.~~ **Decided:** "ambush the ambiguity," so it stays aimed at the situation rather than the person.
 
-1. **The bad-faith manager case** (phishing and bad-faith persuasion share a threat model): keep it or cut it. The deepfake and pressure notes in the AI act go with it.
-2. **The close:** the *Fallout* boss fight, or "more options than quitting and quiet quitting."
+~~**The bad-faith manager case:** keep it or cut it.~~ **Decided:** one strategy for every manager. Take away the purpose of the malice, and let the record be your parachute. Deepfakes tie in through the questions habit, independent of this.
+~~**The close.**~~ **Decided:** "We are in this for longevity. We are in this for the work. We are in this for the team."
+
+No open decisions remain on the outline itself.
+
+## Remaining work
+
+- **Verify the five recalled sources** in the list above against print: Kruger & Dunning, Ross, Hochschild, Locke, La Boétie.
+- **Fold the new sources into** [`bibliography.md`](bibliography.md) with "why it's the origin" entries.
+- **The Hadnagy question** from the original notes is still open. Both of his books are in further reading, and his work covers elicitation heavily, so that topic now sits closer to the center of the talk.
+- **Re-derive the five-minute and book versions** from this outline. The files in `formats/` predate it.

@@ -8,8 +8,8 @@
 
 *Placeholder.*
 
-This book draws on the author's lessons learned from combat experiences and applies them to his
-career in software engineering in order to provide examples of how to use a hacker's toolkit to
+This book draws on the authors lessons learned from combat experiences and applies them his
+career in software engineering in order to provide examples of how to use a hackers toolkit to
 social engineer your career by teaching the fundamental (mis)understanding of authority,
 managerial competency, and what it means to find peace in your workspace and joy in the art of
 your craft.
@@ -26,7 +26,7 @@ The system runs on consent. Commander's Intent informs where the process should 
 keys off the One-Man.
 
 When we ready our weapons and make entry into a building full of insurgents, whatever was decided
-in the general's plan is left back with the general. The first person through the door is the
+in the generals plan is left back with the general. The first person through the door is the
 one who is in command of the mission. Everyone in the stack behind them makes their next choice
 based on what the person in front of them does. A healthy team rotates who is in the lead
 position as the engagement flows through the building, everyone is competent to the task because
@@ -34,9 +34,9 @@ everyone has accepted the authority that put them there. Gandhi said to be the c
 world that you want to see, and as the person who accepts the authority to execute the
 commander's vision, you are now in a unique position at the moment of execution to be the sole
 decider of how that vision is executed. This is the moment you are the change in the world you
-want to see, and we want to grow our influence and competency so that we can continue to effect
+want to see, and we want to grow our influence and competency so that we can continue to affect
 change in the positive directions as we see fit. At the tip of the spear we wield the power to
-decide exactly how is the most appropriate way to achieve the leader's vision they bestowed their
+decide exactly how is the most appropriate way to achieve the leaders vision they bestowed their
 authority on us and we accepted because we agreed. This is the mentality that grants us the moral
 authority to lead our peers in aspects that were not dictated from above, but the authority is
 implicitly granted. "Now, go and do likewise."
@@ -56,7 +56,7 @@ Those manifestations that we tend to identify are the result of situations, not 
 Learned behaviors and responses, not deliberate sabotage or incompetence. When we the underlings
 recognize that the true authority of the project lies in the one who is doing the work, because
 they can't stop you, should you so choose. The Fremen have a belief, that the one who ultimately
-controls a thing, is the one with the will to destroy it. Dunning-Kruger is not a diagnosis, it
+controls a thing, is the one with the will to destroy it. Dunning-Kreuger is not a diagnosis, it
 is a description of a situation.
 
 ### Part Three
@@ -81,7 +81,7 @@ don't use it.
 
 ### Part One: Authority · [`001/`](001/)
 
-*The system runs on consent. Commander's Intent sets where the mission should go, but everyone
+*The system runs on consent. Commander's Intent informs where the process should go, but everyone
 keys off the One-Man.*
 
 1. **The One-Man** (new)

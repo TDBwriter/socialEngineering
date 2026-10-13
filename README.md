@@ -25,6 +25,8 @@ is the project's defining constraint, not decoration.
 | [`outline-v2.md`](outline-v2.md) | **Working draft.** The same 52 points, each fleshed out with the ideas from discussion: elicitation, peer leadership via the SRE model, proactive self-defense, the dump-stat theme, and prompting is managing. Revised abstract, new sources, open decisions. |
 | [`bibliography.md`](bibliography.md) | The 39 origin sources, mapped to beat numbers, each with its "why it's the origin" justification. Includes the author's notes on analogy-versus-evidence. |
 | [`further-reading.md`](further-reading.md) | 63 modern works that build on the origins, each tagged with its related beats. |
+| [`source-excerpts.md`](source-excerpts.md) | Key quote or finding for each origin source, mapped to the book chapter it supports, with a context check (⚑) and verified/recalled status. |
+| [`further-reading-map.md`](further-reading-map.md) | All 63 further-reading works placed in book chapters, with checked talks and podcasts by the same authors. |
 | [`sources-digital.md`](sources-digital.md) | Where to actually read each origin source free — Gutenberg, Internet Classics, archive.org, author pages — in four access tiers, with every link checked. |
 | [`formats/talk-60min.md`](formats/talk-60min.md) | Timing plan for the format of record. |
 | [`formats/lightning-5min.md`](formats/lightning-5min.md) | Two strategies for the 5-minute reduction, with a recommendation. |
